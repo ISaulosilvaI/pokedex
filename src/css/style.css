@@ -1,0 +1,190 @@
+body{
+    text-align: center;
+    background: url(../image/background-Light.gif) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body.dark{
+    background:url(../image/background-Dark.gif) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+h1 img{
+    width: 350px;
+    height: 250px;
+}
+
+#typeButtons button{
+    margin: 5px;
+    width: 75px;
+    height: 40px;
+    border:none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Marcellus SC', serif;
+    font-weight: 400;
+}
+
+#resetButton{
+    background: none;
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#resetButton img{
+    width: 50px;
+    height: 50px;
+}
+
+#themeButton{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#themeButton img{
+    width: 150px;
+    height: 150px;
+}
+
+#themeButton img:hover{
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.normal {
+    background-color: #a8a77a98;
+}
+
+.fire {
+    background-color: #ee823098;
+}
+
+.water {
+    background-color: #6390f098;
+}
+
+.electric {
+    background-color: #f7d02c98;
+}
+
+.grass {
+    background-color: #7ac74c98;
+}
+
+.ice {
+    background-color: #96d9d698;
+}
+
+.fighting {
+    background-color: #c22e2898;
+}
+
+.poison {
+    background-color: #a33ea198;
+}
+
+.ground {
+    background-color: #e2bf6598;
+}
+
+.flying {
+    background-color: #a98ff398;
+}
+
+.psychic {
+    background-color: #f9558780;
+}
+
+.bug {
+    background-color: #a6b91a98
+}
+
+.rock {
+    background-color: #b6a13698;
+}
+
+.ghost {
+    background-color: #73579798;
+}
+
+.dragon {
+    background-color: #6f35fc98;
+}
+
+.dark {
+    background-color: #70574698;
+}
+
+.steel {
+    background-color: #b7b7ce98;
+}
+
+.fairy {
+    background-color: #d685ad98;
+}
+
+.unknown, .shadow{
+    background-color: #00000098;
+}
+
+.card{
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    padding: 30px;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Bungee Hairline', sans-serif;
+    font-weight: 400;
+}
+
+.card img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.card:hover{
+    border: 2px dashed #fff;
+    box-shadow: 7px 5px 30px 10px #a53e72;
+}
+
+#loadMore{
+    width: 250px;
+    height: 85px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 1px solid #f95586a1;
+    border-radius: 25px;
+    background-color: #000000d5;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+/* font-family: 'Andika', sans-serif;
+font-family: 'Bungee Hairline', sans-serif;
+font-family: 'Cabin Sketch', sans-serif;
+font-family: 'Marcellus SC', serif; */
